@@ -9,8 +9,10 @@ import model.superheroe.*;
  */
 public class NoHumano extends Superheroe {
 
-    public NoHumano(AliasSuperheroe nombre, String identidadSecreta, Organizaciones organizacion) {
-        super(nombre, identidadSecreta, new ParrillaPoderes(1, 7, 1, 7, 3, 7, 3, 7, 1, 7, 3, 6), organizacion);
+    public NoHumano(AliasSuperheroe nombre, String identidadSecreta,
+            Organizaciones organizacion) {
+        super(nombre, identidadSecreta, new ParrillaPoderes(1, 7, 1, 7, 3,
+                7, 3, 7, 1, 7, 3, 6), organizacion);
 
     }
 

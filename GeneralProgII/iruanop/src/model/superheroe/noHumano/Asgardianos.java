@@ -9,7 +9,8 @@ import model.superheroe.AliasSuperheroe;
  */
 public class Asgardianos extends NoHumano {
 
-    public Asgardianos(AliasSuperheroe nombre, String identidadSecreta, Organizaciones organizacion) {
+    public Asgardianos(AliasSuperheroe nombre, String identidadSecreta,
+            Organizaciones organizacion) {
         super(nombre, identidadSecreta, organizacion);
         getParrilla().setFuerza(7);
         getParrilla().setInteligenciaMax(2);

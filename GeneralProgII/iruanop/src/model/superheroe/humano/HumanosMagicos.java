@@ -9,7 +9,8 @@ import model.superheroe.AliasSuperheroe;
  */
 public class HumanosMagicos extends Humano {
 
-    public HumanosMagicos(AliasSuperheroe nombre, String identidadSecreta, Organizaciones organizacion) {
+    public HumanosMagicos(AliasSuperheroe nombre,
+            String identidadSecreta, Organizaciones organizacion) {
         super(nombre, identidadSecreta, organizacion);
         getParrilla().setProyeccionEnergiaMin(6);
         getParrilla().setProyeccionEnergiaMax(6);

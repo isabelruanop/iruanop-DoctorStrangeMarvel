@@ -9,7 +9,8 @@ import model.superheroe.AliasSuperheroe;
  */
 public class Krees extends NoHumano {
 
-    public Krees(AliasSuperheroe nombre, String identidadSecreta, Organizaciones organizacion) {
+    public Krees(AliasSuperheroe nombre, String identidadSecreta,
+            Organizaciones organizacion) {
         super(nombre, identidadSecreta, organizacion);
         getParrilla().setInteligenciaMax(4);
         getParrilla().setInteligenciaMin(4);

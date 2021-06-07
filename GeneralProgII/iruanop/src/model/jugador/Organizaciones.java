@@ -6,6 +6,7 @@ package model.jugador;
  */
 public enum Organizaciones {
 
-    A_FORCE, AVENGERS, MERCS_FOR_MONEY, LEAGUE_OF_REALMS, STRANGE_ACADEMY, X_MEN
+    A_FORCE, AVENGERS, MERCS_FOR_MONEY, LEAGUE_OF_REALMS,
+    STRANGE_ACADEMY, X_MEN
 
 }
